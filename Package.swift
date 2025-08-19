@@ -2,22 +2,21 @@
 import PackageDescription
 
 let package = Package(
-    name: "SwiftUISPMDemo1",
+    name: "SwiftUIDemo",
     platforms: [
         .macOS(.v13), .iOS(.v16)
     ],
     products: [
         .executable(
-            name: "SwiftUISPMDemo1",
-            targets: ["SwiftUISPMDemo1"]
+            name: "SwiftUIDemo",
+            targets: ["SwiftUIDemo"]
         )
     ],
     dependencies: [],
     targets: [
         .executableTarget(
-            name: "SwiftUISPMDemo1",
-            dependencies: [],
-            path: "./SwiftUISPMDemo1"
+            name: "SwiftUIDemo",
+            dependencies: []
         )
     ]
 )
