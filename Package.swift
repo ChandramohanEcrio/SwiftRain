@@ -16,8 +16,8 @@ let package = Package(
     targets: [
         .executableTarget(
             name: "SwiftUISPMDemo1",
-            dependencies: []
+            dependencies: [],
+            path: "./SwiftUISPMDemo1"
         )
-        // Removed test target
     ]
 )
